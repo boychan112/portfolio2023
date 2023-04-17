@@ -96,7 +96,7 @@ header ul li:hover{
     display: none;
 }
 
-.sujung-modal, .hongbo-modal{
+.sujung-modal, .hongbo-modal, .license-modal{
     border: 1px solid white;
     border-radius: 20px;
     width: 700px;
@@ -111,11 +111,11 @@ header ul li:hover{
     overflow: auto;
 }
 
-.sujung-modal h1,.hongbo-modal h1{
+.sujung-modal h1,.hongbo-modal h1, .license-modal h1{
     line-height: 100px;
 }
 
-.sujung-modal p, .hongbo-modal p{
+.sujung-modal p, .hongbo-modal p, .license-modal p{
     font-size: x-large;
 }
 
