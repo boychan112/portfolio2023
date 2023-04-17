@@ -2,21 +2,21 @@ $('.sujung').click(function(){
     $('.modal').fadeIn();
     $('.sujung-modal').fadeIn();
     $('.hongbo-modal').hide();
-    $('.license-modal').hide();
+    $('.licensemodal').hide();
 })
 
 $('.hongbo').click(function(){
     $('.modal').fadeIn();
     $('.sujung-modal').hide();
     $('.hongbo-modal').fadeIn();
-    $('.license-modal').hide();
+    $('.licensemodal').hide();
 })
 
 $('.license').click(function(){
     $('.modal').fadeIn();
     $('.sujung-modal').hide();
     $('.hongbo-modal').hide();
-    $('.license-modal').fadeIn();
+    $('.licensemodal').fadeIn();
 })
 
 $('.close-modal').click(function(){
