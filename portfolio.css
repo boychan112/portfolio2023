@@ -96,7 +96,7 @@ header ul li:hover{
     display: none;
 }
 
-.sujung-modal, .hongbo-modal, .license-modal{
+.sujung-modal, .hongbo-modal, .license-modal, .other-modal{
     border: 1px solid white;
     border-radius: 20px;
     width: 700px;
@@ -108,13 +108,15 @@ header ul li:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    
+    overflow: auto;
 }
 
-.sujung-modal h1,.hongbo-modal h1, .license-modal h1{
+.sujung-modal h1,.hongbo-modal h1, .license-modal h1, .other-modal h1{
     line-height: 100px;
 }
 
-.sujung-modal p, .hongbo-modal p, .license-modal p{
+.sujung-modal p, .hongbo-modal p, .license-modal p, .other-modal p{
     font-size: x-large;
 }
 
@@ -123,4 +125,8 @@ header ul li:hover{
     width: 80px;
     height: 30px;
     border: none;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-50%);
 }
