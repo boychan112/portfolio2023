@@ -11,6 +11,11 @@ body{
     background-color: #7d7d7d;
 }
 
+video{
+    position: absolute;
+    z-index: -1;
+}
+
 ul{
     list-style: none;
 }
@@ -72,16 +77,18 @@ header ul li:hover{
 }
 
 .name .sujung, .hongbo, .license, .other{
-    color: white;
+    color: black;
+    background-color: white;
     margin: 20px;
-    border: 1px solid white;
+    border: 2px solid #ffaf20;
     padding: 10px 50px 10px 50px;
     border-radius: 50px;
 }
 
 .name .sujung:hover,.hongbo:hover,.license:hover,.other:hover{
-    background-color: #4a4a4a;
-    border: 1px solid #4a4a4a;
+    color: black;
+    background-color: #ffaf20;
+    border: 1px solid #ffaf20;
 }
 
 
