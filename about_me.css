@@ -86,6 +86,10 @@ header ul li:hover{
     border-radius: 50px;
 }
 
+.github a{
+    color: black;
+}
+
 .name .school:hover,.contact:hover,.github:hover,.me:hover{
     background-color: #ffaf20;
     border: 1px solid #ffaf20;
