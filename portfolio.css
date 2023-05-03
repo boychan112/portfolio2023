@@ -105,11 +105,11 @@ header ul li:hover{
 }
 
 .sujung-modal, .hongbo-modal, .license-modal, .other-modal{
-    border: 1px solid white;
+    border: 1px solid #ffaf20;
     border-radius: 20px;
     width: 700px;
     height: 500px;
-    background-color: #7d7d7d;
+    background-color: white;
     text-align: center;
 
     position: absolute;

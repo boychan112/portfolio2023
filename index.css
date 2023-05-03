@@ -98,11 +98,11 @@ header ul li:hover{
 }
 
 .modal-inner{
-    border: 1px solid white;
+    border: 1px solid #ffaf20;
     border-radius: 20px;
     width: 700px;
-    height: 300px;
-    background-color: #7d7d7d;
+    height: 500px;
+    background-color: white;
     text-align: center;
 
     position: absolute;
