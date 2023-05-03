@@ -1,33 +1,33 @@
-$('.sujung').click(function(){
+$('.portfoliosite').click(function(){
     $('.modal').fadeIn();
-    $('.sujung-modal').fadeIn();
-    $('.hongbo-modal').hide();
-    $('.license-modal').hide();
-    $('.other-modal').hide();
+    $('.portfoliosite-modal').fadeIn();
+    $('.sujunggwa-modal').hide();
+    $('.schoolclass-modal').hide();
+    $('.discord-modal').hide();
 })
 
-$('.hongbo').click(function(){
+$('.sujunggwa').click(function(){
     $('.modal').fadeIn();
-    $('.sujung-modal').hide();
-    $('.hongbo-modal').fadeIn();
-    $('.license-modal').hide();
-    $('.other-modal').hide();
+    $('.portfoliosite-modal').hide();
+    $('.sujunggwa-modal').fadeIn();
+    $('.schoolclass-modal').hide();
+    $('.discord-modal').hide();
 })
 
-$('.license').click(function(){
+$('.schoolclass').click(function(){
     $('.modal').fadeIn();
-    $('.sujung-modal').hide();
-    $('.hongbo-modal').hide();
-    $('.license-modal').fadeIn();
-    $('.other-modal').hide();
+    $('.portfoliosite-modal').hide();
+    $('.sujunggwa-modal').hide();
+    $('.schoolclass-modal').fadeIn();
+    $('.discord-modal').hide();
 })
 
-$('.other').click(function(){
+$('.discord').click(function(){
     $('.modal').fadeIn();
-    $('.sujung-modal').hide();
-    $('.hongbo-modal').hide();
-    $('.license-modal').hide();
-    $('.other-modal').fadeIn();
+    $('.portfoliosite-modal').hide();
+    $('.sujunggwa-modal').hide();
+    $('.schoolclass-modal').hide();
+    $('.discord-modal').fadeIn();
 })
 
 $('.close-modal').click(function(){

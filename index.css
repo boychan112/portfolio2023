@@ -11,6 +11,12 @@ body{
     background-color: #7d7d7d;
 }
 
+video{
+    position: absolute;
+    z-index: -1;
+    width: 1920px;
+}
+
 ul{
     list-style: none;
 }
@@ -64,19 +70,20 @@ header ul li:hover{
 }
 
 .name .contact{
-    color: white;
+    color: black;
+    background-color: white;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 70%;
     left: 50%;
-    border: 1px solid white;
+    border: 2px solid #ffaf20;
     padding: 10px 50px 10px 50px;
     border-radius: 50px;
 }
 
 .name .contact:hover{
-    background-color: #4a4a4a;
-    border: 1px solid #4a4a4a;
+    background-color: #ffaf20;
+    border: 1px solid #ffaf20;
 }
 
 .modal{

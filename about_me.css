@@ -11,6 +11,12 @@ body{
     background-color: #7d7d7d;
 }
 
+video{
+    position: absolute;
+    z-index: -1;
+    width: 1920px;
+}
+
 ul{
     list-style: none;
 }
@@ -72,16 +78,21 @@ header ul li:hover{
 }
 
 .name .school, .contact, .github, .me{
-    color: white;
+    color: black;
+    background-color: white;
     margin: 20px;
-    border: 1px solid white;
+    border: 2px solid #ffaf20;
     padding: 10px 50px 10px 50px;
     border-radius: 50px;
 }
 
+.github a{
+    color: black;
+}
+
 .name .school:hover,.contact:hover,.github:hover,.me:hover{
-    background-color: #4a4a4a;
-    border: 1px solid #4a4a4a;
+    background-color: #ffaf20;
+    border: 1px solid #ffaf20;
 }
 
 

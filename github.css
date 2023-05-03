@@ -11,6 +11,12 @@ body{
     background-color: #7d7d7d;
 }
 
+video{
+    position: absolute;
+    z-index: -1;
+    width: 1920px;
+}
+
 ul{
     list-style: none;
 }
@@ -69,19 +75,24 @@ header ul li:hover{
     transform: translate(-50%,-50%);
     top: 75%;
     left: 50%;
+    width: 1100px;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.name .sujung, .hongbo, .license, .other{
-    color: white;
+.name .portfoliosite, .sujunggwa, .schoolclass, .discord, .ourgame{
+    color: black;
+    background-color: white;
     margin: 20px;
-    border: 1px solid white;
+    border: 2px solid #ffaf20;
     padding: 10px 50px 10px 50px;
     border-radius: 50px;
 }
 
-.name .sujung:hover,.hongbo:hover,.license:hover,.other:hover{
-    background-color: #4a4a4a;
-    border: 1px solid #4a4a4a;
+.name .portfoliosite:hover,.sujunggwa:hover,.schoolclass:hover,.discord:hover,.ourgame:hover{
+    color: black;
+    background-color: #ffaf20;
+    border: 1px solid #ffaf20;
 }
 
 
@@ -96,7 +107,7 @@ header ul li:hover{
     display: none;
 }
 
-.sujung-modal, .hongbo-modal, .license-modal, .other-modal{
+.portfoliosite-modal, .sujunggwa-modal, .schoolclass-modal, .discord-modal,.ourgame-modal{
     border: 1px solid white;
     border-radius: 20px;
     width: 700px;
@@ -112,11 +123,11 @@ header ul li:hover{
     overflow: auto;
 }
 
-.sujung-modal h1,.hongbo-modal h1, .license-modal h1, .other-modal h1{
+.portfoliosite-modal h1,.sujunggwa-modal h1, .schoolclass-modal h1, .discord-modal h1, .ourgame-modal h1{
     line-height: 100px;
 }
 
-.sujung-modal p, .hongbo-modal p, .license-modal p, .other-modal p{
+.portfoliosite-modal p, .sujunggwa-modal p, .schoolclass-modal p, .discord-modal p, .ourgame-modal p{
     font-size: x-large;
 }
 
