@@ -108,7 +108,7 @@ header ul li:hover{
 }
 
 .school-modal, .contact-modal, .github-modal, .me-modal{
-    border: 1px solid #ffaf20;
+    border: 3px solid #ffaf20;
     border-radius: 20px;
     width: 700px;
     height: 500px;
@@ -140,4 +140,5 @@ header ul li:hover{
     left: 50%;
     top: 75%;
     transform: translate(-50%,-50%);
+    border: 2px solid #ffaf20;
 }
