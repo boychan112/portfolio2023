@@ -22,7 +22,7 @@ ul{
 }
 
 a{
-    color: #cecccc;
+    color: #6593fe;
     text-decoration: none;
 }
 
@@ -44,6 +44,7 @@ header ul a{
     width: 25%;
     line-height: 80px;
     text-align: center;
+    color: white;
 }
 
 header ul li:hover{
