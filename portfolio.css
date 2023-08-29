@@ -63,22 +63,22 @@ header ul a::after {
 }
 
 header ul a:nth-child(1):hover::after { 
-    transition: width 100ms ease-in-out;
+    transition: width 200ms ease-in-out;
     width: 25%; 
 }
 header ul a:nth-child(2):hover::after { 
     left: 25%;
-    transition: width 100ms ease-in-out;
+    transition: width 200ms ease-in-out;
     width: 25%; 
 }
 header ul a:nth-child(3):hover::after { 
     left: 50%;
-    transition: width 100ms ease-in-out;
+    transition: width 200ms ease-in-out;
     width: 25%; 
 }
 header ul a:nth-child(4):hover::after { 
     left: 75%;
-    transition: width 100ms ease-in-out;
+    transition: width 200ms ease-in-out;
     width: 25%; 
 }
 
